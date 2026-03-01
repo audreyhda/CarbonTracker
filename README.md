@@ -3,7 +3,7 @@
 Carbon Tracker is an iOS app built with SwiftUI that helps you understand, track, and reduce your personal CO₂ emissions. By logging daily activities across transport, diet, and energy use, you get a clear picture of your carbon footprint, receive personalised tips, and can take on challenges to lower your impact. The app combines a playful, friendly design with robust data tracking and optional on‑device AI for tailored advice (iOS 26+).
 
 <div align="center">
-<img src="screenshots/dashboard.png" alt="Dashboard Screenshot" width="500">
+<img src="screenshots/dashboard.png" width="500">
 </div>
 *Dashboard: at‑a‑glance footprint, animated Earth status, and a personalised tip.*
 
