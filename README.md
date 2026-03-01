@@ -1,6 +1,6 @@
-# 🌱 EcoCoach – Your Personal Carbon Footprint Tracker
+# 🌱 Carbon Tracker – Your Personal Carbon Footprint Tracker
 
-EcoCoach is an iOS app built with SwiftUI that helps you understand, track, and reduce your personal CO₂ emissions. By logging daily activities across transport, diet, and energy use, you get a clear picture of your carbon footprint, receive personalised tips, and can take on challenges to lower your impact. The app combines a playful, friendly design with robust data tracking and optional on‑device AI for tailored advice (iOS 26+).
+Carbon Tracker is an iOS app built with SwiftUI that helps you understand, track, and reduce your personal CO₂ emissions. By logging daily activities across transport, diet, and energy use, you get a clear picture of your carbon footprint, receive personalised tips, and can take on challenges to lower your impact. The app combines a playful, friendly design with robust data tracking and optional on‑device AI for tailored advice (iOS 26+).
 
 <div align="center">
 <img src="screenshots/dashboard.png" alt="Dashboard Screenshot" width="500">
@@ -36,7 +36,7 @@ EcoCoach is an iOS app built with SwiftUI that helps you understand, track, and 
 
 ## 🧱 Architecture & Design Choices
 
-EcoCoach follows an **MVVM** pattern with SwiftUI. The main components are:
+Carbon Tracker follows an **MVVM** pattern with SwiftUI. The main components are:
 
 - **`DataStore`** – An `ObservableObject` that manages all app data. It uses `@AppStorage` (UserDefaults) for persistence, so entries and challenges survive app restarts. Cached values (daily totals, streak, etc.) are recomputed on data changes and published via `objectWillChange`.
 - **`AIAdvisor`** – Another `ObservableObject` that encapsulates tip generation. It checks for the presence of `FoundationModels` and falls back to a rotating library of 36 hand‑crafted tips. This ensures the app works on all iOS versions while being ready for future AI enhancements.
@@ -61,7 +61,7 @@ The project consists of the following Swift files (all included in the root of t
 
 | File | Purpose |
 |------|---------|
-| `EcoCoachApp.swift` | App entry point with `ContentView` as the root tab view. |
+| `CarbonTrackerApp.swift` | App entry point with `ContentView` as the root tab view. |
 | `ColorExtensions.swift` | Custom colour definitions and hex initialiser. |
 | `Models.swift` | All data models (`DailyEntry`, `Challenge`, `CO2Benchmark`, `CategoryPoint`, `ImpactLevel`). |
 | `FootprintCalculator.swift` | Emission factors and calculation methods. |
@@ -80,4 +80,4 @@ The project consists of the following Swift files (all included in the root of t
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/EcoCoach.git
+   git clone https://github.com/yourusername/CarbonTracker.git
