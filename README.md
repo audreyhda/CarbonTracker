@@ -2,8 +2,10 @@
 
 EcoCoach is an iOS app built with SwiftUI that helps you understand, track, and reduce your personal CO₂ emissions. By logging daily activities across transport, diet, and energy use, you get a clear picture of your carbon footprint, receive personalised tips, and can take on challenges to lower your impact. The app combines a playful, friendly design with robust data tracking and optional on‑device AI for tailored advice (iOS 26+).
 
-![Dashboard Screenshot](screenshots/dashboard.png)  
+<div align="center">
 *Dashboard: at‑a‑glance footprint, animated Earth status, and a personalised tip.*
+<img src="screenshots/dashboard.png" alt="Dashboard Screenshot" width="500">
+</div>
 
 ---
 
@@ -20,13 +22,14 @@ EcoCoach is an iOS app built with SwiftUI that helps you understand, track, and 
 - **Progress Charts** – Interactive charts show your total CO₂ over time (bar chart), a breakdown by category (line chart), and a calendar view to review or edit past entries.
 - **Streak & Statistics** – Track your logging streak, average daily footprint, and projected annual emissions, all compared to global benchmarks.
 
-![Logging Screen](screenshots/logview.png)
-<img src="screenshots/logview.png" alt="Logging Screen" width="400">
+<img src="screenshots/logview.png" alt="Logging Screen" width="500">
 *Logging screen with collapsible sections and live total.*
+</div>
 
-![Challenges Screen](screenshots/challenges.png)  
+<div align="center">
+<img src="screenshots/challenges.png" alt="Challenges Screen" width="500">
 *Challenges: select, complete, and track your impact.*
-
+</div>
 ---
 
 ## 🧱 Architecture & Design Choices
