@@ -21,7 +21,7 @@ EcoCoach is an iOS app built with SwiftUI that helps you understand, track, and 
 - **Streak & Statistics** – Track your logging streak, average daily footprint, and projected annual emissions, all compared to global benchmarks.
 
 ![Logging Screen](screenshots/logview.png)
-<img src="![Logging Screen](screenshots/logview.png)" style="width: 50%;">
+<img src="screenshots/logview.png" alt="Logging Screen" width="400">
 *Logging screen with collapsible sections and live total.*
 
 ![Challenges Screen](screenshots/challenges.png)  
