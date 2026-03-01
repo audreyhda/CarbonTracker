@@ -20,7 +20,8 @@ EcoCoach is an iOS app built with SwiftUI that helps you understand, track, and 
 - **Progress Charts** – Interactive charts show your total CO₂ over time (bar chart), a breakdown by category (line chart), and a calendar view to review or edit past entries.
 - **Streak & Statistics** – Track your logging streak, average daily footprint, and projected annual emissions, all compared to global benchmarks.
 
-![Logging Screen](screenshots/logview.png)  
+  ![Logging Screen](screenshots/logview.png)
+<img src="screenshots/dashboard.png" style="width: 50%;">
 *Logging screen with collapsible sections and live total.*
 
 ![Challenges Screen](screenshots/challenges.png)  
