@@ -84,4 +84,4 @@ The project consists of the following Swift files (all included in the root of t
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/CarbonTracker.git
+   git clone https://github.com/audreyhda/CarbonTracker.git
