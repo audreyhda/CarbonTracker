@@ -1,4 +1,4 @@
-# 🌱 Carbon Tracker
+# Carbon Tracker
 
 > **An iOS app that helps you understand, track, and reduce your personal carbon footprint through daily activity logging, personalised tips, and habit-building challenges.**
 
